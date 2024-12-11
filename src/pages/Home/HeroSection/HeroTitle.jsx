@@ -28,13 +28,13 @@ const HeroTitle = () => {
 
       {/* button */}
       <div className="flex justify-center mt-7">
-            <button className="bg-white px-4 py-3 rounded-full flex items-center gap-1">
-              Get Started{" "}
-              <span className="flex items-center text-lg">
-                <MdChevronRight /> <MdChevronRight className="-ml-3" />
-              </span>
-            </button>
-          </div>
+        <button className="bg-white px-4 py-3 rounded-full flex items-center gap-1">
+          Get Started{" "}
+          <span className="flex items-center text-lg">
+            <MdChevronRight /> <MdChevronRight className="-ml-3" />
+          </span>
+        </button>
+      </div>
     </div>
   );
 };
