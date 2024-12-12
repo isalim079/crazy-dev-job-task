@@ -9,7 +9,7 @@ const PostizPricing = () => {
         <h4 className="text-[34px] font-semibold mb-[40px] text-white">
           Postiz Pricing
         </h4>
-        <ul>
+        <ul className="mb-6">
           <li className="flex items-center gap-3">
             <span className="p-2 rounded-full text-green-600 bg-[#FFFFFF0D]">
               <FaCheck />
@@ -53,7 +53,7 @@ const PostizPricing = () => {
 
       {/* On premise service */}
       <div>
-        <h3 className="font-jakarta text-[22px] font-semibold mb-6 text-white">
+        <h3 className="font-jakarta text-[22px] font-semibold mb-6 mt-[40px] text-white">
           On-premise services & Enterprise
         </h3>
 

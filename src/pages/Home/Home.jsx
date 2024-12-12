@@ -2,6 +2,7 @@ import Navbar from "../../shared/Navbar/Navbar";
 import HeroSection from "./HeroSection/HeroSection";
 import PlatformComparison from "./PlatformComparison/PlatformComparison";
 import PricingPlans from "./PricingPlans/PricingPlans";
+import SocialMediaScheduling from "./SocialMediaScheduling/SocialMediaScheduling";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <PlatformComparison />
       <PricingPlans />
+      <SocialMediaScheduling />
     </div>
   );
 };

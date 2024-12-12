@@ -9,7 +9,7 @@ const BufferPricing = () => {
         <h4 className="text-[34px] font-semibold mb-[40px] text-white">
           Buffer Pricing
         </h4>
-        <ul>
+        <ul className="mb-6">
           <li className="flex items-center gap-3">
             <span className="p-2 rounded-full text-green-600 bg-[#FFFFFF0D]">
               <FaCheck />
