@@ -9,7 +9,7 @@ const SocialMediaScheduling = () => {
           Social Media Scheduling & Publishing
         </h1>
 
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl mx-auto grid lg:grid-cols-2 gap-3">
           <PostizScheduling />
           <BufferScheduling />
         </div>
