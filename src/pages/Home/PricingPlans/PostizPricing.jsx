@@ -3,7 +3,7 @@ import { postizePricingData } from "./pricingData";
 
 const PostizPricing = () => {
   return (
-    <div className=" p-[44px] bg-[#1A1919]">
+    <div className=" p-[44px] bg-[#1A1919] rounded-2xl">
       {/* title section */}
       <div className="font-jakarta mt-[40px]">
         <h4 className="text-[34px] font-semibold mb-[40px] text-white">

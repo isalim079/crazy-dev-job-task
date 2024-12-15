@@ -12,7 +12,7 @@ const PostizScheduling = () => {
   return (
     <div>
       {/* Social network for auto publishing */}
-      <div className="p-[44px] bg-[#1A1919]">
+      <div className="p-[44px] bg-[#1A1919] rounded-2xl">
         <h4 className="font-jakarta text-[34px] font-semibold text-white mb-[40px]">
           Postiz - Scheduling & Publishing
         </h4>

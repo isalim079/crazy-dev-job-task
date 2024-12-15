@@ -15,7 +15,7 @@ const PlatformComparison = () => {
         {/* card section */}
         <div className="flex lg:flex-row gap-3 flex-col items-center relative">
           {/* 1st card */}
-          <div className="p-[80px] rounded-lg bg-gradient-to-r from-[#5608D5] to-[#24005E]">
+          <div className="p-[80px] rounded-2xl bg-gradient-to-r from-[#5608D5] to-[#24005E]">
             <div className=" mb-6">
               <div>
                 <img src={postizLogo} alt="" />
@@ -33,7 +33,7 @@ const PlatformComparison = () => {
             </div>
           </div>
           {/* 2nd card */}
-          <div className="p-[80px] rounded-lg bg-[#1A1919] h-full">
+          <div className="p-[80px] rounded-2xl bg-[#1A1919] h-full">
             <div className=" mb-6">
               <div>
                 <img src={bufferLogo} alt="" />
