@@ -4,6 +4,7 @@ import PlatformComparison from "./PlatformComparison/PlatformComparison";
 import PricingPlans from "./PricingPlans/PricingPlans";
 import SocialMediaAnalytics from "./SocialMediaAnalytics/SocialMediaAnalytics";
 import SocialMediaScheduling from "./SocialMediaScheduling/SocialMediaScheduling";
+import TermsAndApprovals from "./TeamsAndApprovals/TermsAndApprovals";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <PricingPlans />
       <SocialMediaScheduling />
       <SocialMediaAnalytics />
+      <TermsAndApprovals />
     </div>
   );
 };
