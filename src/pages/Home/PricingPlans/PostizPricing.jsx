@@ -64,11 +64,16 @@ const PostizPricing = () => {
         </h3>
 
         {/* card 1 */}
-        <div className="text-white font-jakarta p-7 rounded-lg bg-gradient-to-bl from-[#45007C] to-[#1C0033] flex items-center justify-between">
+        <div className="text-white font-jakarta p-7 rounded-lg bg-gradient-to-bl from-[#45007C] to-[#1C0033] flex flex-col lg:flex-row lg:items-center justify-between">
           <div>
-            <h5 className="text-[22px]">Self service installation</h5>
-            <p className="text-[22px] font-semibold">
-              <span className="text-[40px] font-semibold">$2000</span>/one time
+            <h5 className=" lg:text-[22px] mb-2 lg:mb-0">
+              Self service installation
+            </h5>
+            <p className="lg:text-[22px] font-semibold mb-5 lg:mb-0">
+              <span className="text-[28px] lg:text-[40px] font-semibold">
+                $2000
+              </span>
+              /one time
             </p>
           </div>
           <div>
@@ -78,11 +83,13 @@ const PostizPricing = () => {
         </div>
 
         {/* card 2 */}
-        <div className="text-white font-jakarta p-7 rounded-lg bg-gradient-to-bl from-[#6B007C] to-[#280033] flex items-center justify-between mt-3">
+        <div className="text-white font-jakarta p-7 rounded-lg bg-gradient-to-bl from-[#6B007C] to-[#280033] flex lg:flex-row flex-col lg:items-center justify-between mt-3">
           <div>
-            <h5 className="text-[22px]">Self service installation</h5>
-            <p className="text-[22px] font-semibold">
-              <span className="text-[40px] font-semibold">$2000</span>/one time
+            <h5 className="lg:text-[22px] mb-2 lg:mb-0">Enterprise</h5>
+            <p className="lg:text-[22px] font-semibold mb-5 lg:mb-0">
+              <span className="text-[28px] lg:text-[40px] font-semibold">
+                Custom
+              </span>
             </p>
           </div>
           <div>

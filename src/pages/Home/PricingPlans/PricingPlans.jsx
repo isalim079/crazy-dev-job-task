@@ -3,7 +3,7 @@ import PostizPricing from "./PostizPricing";
 
 const PricingPlans = () => {
   return (
-    <div className="lg:mt-[120px] mt-[60px] px-6 lg:px-0">
+    <div className="lg:mt-[120px] mt-[60px]">
       <div>
         {/* Title */}
         <div className="mb-8 lg:mb-[60px]">
@@ -13,11 +13,15 @@ const PricingPlans = () => {
         </div>
 
         {/* pricing cards */}
-        <div className="max-w-screen-xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-5">
-            <PostizPricing />
-            <BufferPricing />
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-0">
+          <div className="grid lg:grid-cols-2 gap-5">
+            <div className="">
+              <PostizPricing />
             </div>
+            <div>
+              <BufferPricing />
+            </div>
+          </div>
         </div>
       </div>
     </div>
