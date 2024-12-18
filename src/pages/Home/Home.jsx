@@ -15,7 +15,7 @@ import TermsAndApprovals from "./TeamsAndApprovals/TermsAndApprovals";
 
 const Home = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black overflow-hidden">
       <Navbar />
       <HeroSection />
       <PlatformComparison />

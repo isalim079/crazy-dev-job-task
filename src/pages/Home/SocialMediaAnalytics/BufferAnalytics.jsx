@@ -12,14 +12,14 @@ const BufferAnalytics = () => {
   return (
     <div>
       {/* Social network for auto publishing */}
-      <div className="p-[44px] bg-[#1A1919] rounded-2xl">
-        <h4 className="font-jakarta text-[34px] font-semibold text-white mb-[40px]">
-          Postiz - Scheduling & Publishing
+      <div className="p-6 lg:p-[44px] bg-[#1A1919] rounded-2xl">
+        <h4 className="font-jakarta text-[22px] lg:text-[34px] font-semibold text-white mb-[40px]">
+          Buffer - Scheduling & Publishing
         </h4>
 
         {/* social networks */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 text-white">
             Instagram
           </h5>
           {instaData.map((item) => (
@@ -46,7 +46,7 @@ const BufferAnalytics = () => {
 
         {/* Facebook */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Facebook
           </h5>
           {facebookData.map((item) => (
@@ -73,7 +73,7 @@ const BufferAnalytics = () => {
 
         {/* Twitter */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Twitter
           </h5>
           {twitterData.map((item) => (
@@ -100,7 +100,7 @@ const BufferAnalytics = () => {
 
         {/* Linkedin */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Linkedin
           </h5>
           {linkedinData.map((item) => (
@@ -127,7 +127,7 @@ const BufferAnalytics = () => {
 
         {/* Reporting */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Reporting
           </h5>
           {reportingData.map((item) => (

@@ -3,13 +3,13 @@ import postiz from "../../../assets/img/bottomPostiz.png";
 
 const ReadyToGetStarted = () => {
   return (
-    <div className="pt-[120px] bg-darkGrey">
+    <div className="lg:pt-[120px] pt-[80px] bg-darkGrey px-6 lg:px-0">
       {/* title section */}
       <div className="text-white">
-        <h1 className="font-jakarta text-[60px] font-semibold text-center mb-3">
+        <h1 className="font-jakarta text-[32px] lg:text-[60px] font-semibold text-center mb-3">
           Ready to get started?
         </h1>
-        <p className="max-w-[538px] mx-auto text-center font-dmSans text-[22px]">
+        <p className="max-w-[538px] mx-auto text-center font-dmSans text-[18px] lg:text-[22px]">
           Elevate your social media planning and achieve new heights of
           efficiency and effectiveness with Postiz.
         </p>

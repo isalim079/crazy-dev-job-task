@@ -3,9 +3,9 @@ import PostizAnalytics from "./PostizAnalytics";
 
 const SocialMediaAnalytics = () => {
   return (
-    <div className="lg:mt-[120px]">
-      <div>
-        <h1 className="text-center font-jakarta text-[48px] font-semibold mb-[60px] text-white">
+    <div className="lg:mt-[120px] mt-[60px] px-6 lg:px-0">
+      <div className="">
+        <h1 className="text-center font-jakarta text-[32px] lg:text-[48px] font-semibold mb-[40px]  lg:mb-[60px] text-white">
           Social Media Analytics & Reporting
         </h1>
 

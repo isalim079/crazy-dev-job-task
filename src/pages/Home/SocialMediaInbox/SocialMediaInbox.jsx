@@ -4,15 +4,15 @@ import { RxCross2 } from "react-icons/rx";
 
 const SocialMediaInbox = () => {
   return (
-    <div className="lg:mt-[120px]">
+    <div className="lg:mt-[120px] mt-[60px] px-6 lg:px-0">
       <div>
-        <h1 className="text-center font-jakarta text-[48px] font-semibold mb-[60px] text-white">
+        <h1 className="text-center font-jakarta text-[32px] lg:text-[48px] font-semibold mb-[40px] lg:mb-[60px] text-white">
           Social Media Analytics & Reporting
         </h1>
 
         <div className="max-w-screen-xl mx-auto grid lg:grid-cols-2 gap-3">
           {/* Postiz social media inbox */}
-          <div className="bg-darkGrey p-[44px] rounded-2xl">
+          <div className="bg-darkGrey p-6 lg:p-[44px] rounded-2xl">
             <h4 className="font-jakarta text-[34px] font-semibold text-white mb-[40px]">
               Postiz -Social Media Inbox
             </h4>
@@ -20,7 +20,7 @@ const SocialMediaInbox = () => {
             <div>
               {socialMediaInboxData.map((item) => (
                 <div key={item.id}>
-                  <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+                  <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
                     {item.title}
                   </h5>
                   {item.features.map((item) => (
@@ -49,7 +49,7 @@ const SocialMediaInbox = () => {
           </div>
 
           {/* Buffer social media inbox */}
-          <div className="bg-darkGrey p-[44px] rounded-2xl">
+          <div className="bg-darkGrey p-6 lg:p-[44px] rounded-2xl">
             <h4 className="font-jakarta text-[34px] font-semibold text-white mb-[40px]">
               Buffer -Social Media Inbox
             </h4>
@@ -57,7 +57,7 @@ const SocialMediaInbox = () => {
             <div>
               {socialMediaInboxData.map((item) => (
                 <div key={item.id}>
-                  <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+                  <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
                     {item.title}
                   </h5>
                   {item.features.map((item) => (
