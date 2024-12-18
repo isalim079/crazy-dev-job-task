@@ -3,7 +3,7 @@ import doodle2 from "../../../assets/img/doodle2.png";
 
 const FrequentlyAskQues = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto mb-[180px]">
       <div className="grid grid-cols-7 ">
         {/* column 1 */}
         <div className="col-span-2 flex flex-col">
