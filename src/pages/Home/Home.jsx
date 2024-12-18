@@ -1,4 +1,5 @@
 import Navbar from "../../shared/Navbar/Navbar";
+import ChoosePostiz from "./ChoosePostiz/ChoosePostiz";
 import CompareAlternatives from "./CompareAlternatives/CompareAlternatives";
 import HeroSection from "./HeroSection/HeroSection";
 import PlatformComparison from "./PlatformComparison/PlatformComparison";
@@ -22,6 +23,7 @@ const Home = () => {
       <SocialMediaInbox />
       <Summary />
       <CompareAlternatives />
+      <ChoosePostiz />
     </div>
   );
 };
