@@ -1,6 +1,7 @@
 import Navbar from "../../shared/Navbar/Navbar";
 import ChoosePostiz from "./ChoosePostiz/ChoosePostiz";
 import CompareAlternatives from "./CompareAlternatives/CompareAlternatives";
+import FrequentlyAskQues from "./FrequentlyAskQues/FrequentlyAskQues";
 import HeroSection from "./HeroSection/HeroSection";
 import PlatformComparison from "./PlatformComparison/PlatformComparison";
 import PricingPlans from "./PricingPlans/PricingPlans";
@@ -24,6 +25,7 @@ const Home = () => {
       <Summary />
       <CompareAlternatives />
       <ChoosePostiz />
+      <FrequentlyAskQues />
     </div>
   );
 };

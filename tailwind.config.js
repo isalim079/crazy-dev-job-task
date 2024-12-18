@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -8,9 +9,9 @@ export default {
         dmSans: '"DM Sans", serif',
       },
       colors: {
-        darkGrey: '#1A1919'
-      }
+        darkGrey: "#1A1919",
+      },
     },
   },
-  plugins: [],
+  plugins: [daisyui],
 };
