@@ -6,13 +6,13 @@ const HeroTitle = () => {
   return (
     <div className="font-jakarta">
       <div>
-        <h1 className="text-center max-w-[800px] mx-auto text-white text-[70px] font-semibold leading-[80px]">
+        <h1 className="text-center max-w-[800px] mx-auto text-white lg:text-[70px] text-[40px] font-black lg:font-semibold lg:leading-[80px] leading-[45px]">
           Postiz and Buffer comparison
         </h1>
       </div>
 
       {/* line */}
-      <div className="max-w-[420px] mx-auto my-5">
+      <div className="lg:max-w-[420px] max-w-[280px] mx-auto my-5">
         <div className="flex justify-end">
           <img src={img} alt="" />
         </div>

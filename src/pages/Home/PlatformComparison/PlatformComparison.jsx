@@ -3,7 +3,7 @@ import bufferLogo from "../../../assets/img/bufferLogo.png";
 
 const PlatformComparison = () => {
   return (
-    <div className="lg:mt-[120px]">
+    <div className="lg:mt-[120px] mt-[60px]">
       <div className="max-w-screen-xl mx-auto">
         {/* title */}
         <div className="mb-[40px]">
