@@ -12,14 +12,14 @@ const PostizScheduling = () => {
   return (
     <div>
       {/* Social network for auto publishing */}
-      <div className="p-[44px] bg-[#1A1919] rounded-2xl">
-        <h4 className="font-jakarta text-[34px] font-semibold text-white mb-[40px]">
+      <div className="p-6 lg:p-[44px] bg-[#1A1919] rounded-2xl">
+        <h4 className="font-jakarta text-[22px] lg:text-[34px] font-semibold text-white mb-[40px]">
           Postiz - Scheduling & Publishing
         </h4>
 
         {/* social networks */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 text-white">
             Social networks for auto-publishing
           </h5>
           {socialNetworksData.map((item) => (
@@ -46,7 +46,7 @@ const PostizScheduling = () => {
 
         {/* Essentials */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Essentials
           </h5>
           {socialEssentialData.map((item) => (
@@ -73,7 +73,7 @@ const PostizScheduling = () => {
 
         {/* Tag users on */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Tag users on
           </h5>
           {tagUsersOn.map((item) => (
@@ -100,7 +100,7 @@ const PostizScheduling = () => {
 
         {/* Auto publish carousel on */}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Auto-publish carousels on
           </h5>
           {autoPublishCarousels.map((item) => (
@@ -127,7 +127,7 @@ const PostizScheduling = () => {
 
         {/* Scheduling views supported*/}
         <div>
-          <h5 className="font-jakarta text-[22px] font-semibold mb-5 mt-[40px] text-white">
+          <h5 className="font-jakarta text-[18px] lg:text-[22px] font-semibold mb-5 mt-[40px] text-white">
             Scheduling views supported
           </h5>
           {schedulingViewsSupported.map((item) => (
